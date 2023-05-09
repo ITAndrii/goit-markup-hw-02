@@ -1,15 +1,37 @@
-/* Main background ##E5E5E5*/
-/* Background futer and main section #2E2F42 */
-/* Foter text color #F4F4FD */
+/* Main background #ffffff */
+/* Background footer and main section #2E2F42 */
+/* Footer text color #F4F4FD */
 /* Main text color #434455 */
 /* Title color #2E2F42 */
 /* background button #4D5AE5 */
 
 :root {
-    --main-background: #E5E5E5;
-    --futer-background: #2E2F42;
+  --main-bg: #ffffff;
+  --durk-bg: #2e2f42;
+  --main-text-color: #434455;
+  --title-color: #2e2f42;
+  --button-bg: #4d5ae5;
 }
 
-
+.list {
+  list-style: none;
+}
 
 /* Header */
+.page-header {
+  background: var(--main-text-color);
+}
+
+.logo {
+  background: var(--main-bg);
+  padding: 24px 0 24px 156px;
+}
+
+.nav-link .studio {
+  padding: 24px 40px 24px 344px;
+}
+
+/* Footer */
+.page-footer {
+  background: var(--main-text-color);
+}
