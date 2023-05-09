@@ -17,21 +17,20 @@
   list-style: none;
 }
 
-/* Header */
-.page-header {
-  background: var(--main-text-color);
+body {
+  font-family: "roboto";
 }
+
+/* Header */
 
 .logo {
-  background: var(--main-bg);
-  padding: 24px 0 24px 156px;
+  text-decoration: none;
 }
 
-.nav-link .studio {
-  padding: 24px 40px 24px 344px;
-}
-
-/* Footer */
-.page-footer {
-  background: var(--main-text-color);
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
