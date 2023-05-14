@@ -105,6 +105,10 @@ body {
   cursor: pointer;
 }
 
+.hero-button:is(:hover, :focus) {
+  background-color: var(--pressed-state);
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
