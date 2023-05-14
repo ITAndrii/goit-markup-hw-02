@@ -74,8 +74,7 @@ body {
   color: var(--pressed-state);
 }
 
-.mail,
-.phone {
+.contacts {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -85,11 +84,7 @@ body {
   color: var(--main-text-color);
 }
 
-.mail:is(:hover, :focus) {
-  color: var(--pressed-state);
-}
-
-.phone:focus:is(:hover, :focus) {
+.contacts:is(:hover, :focus) {
   color: var(--pressed-state);
 }
 
@@ -106,7 +101,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--main-bg);
-  background: var(--accent-color);
+  background: var(--pressed-state);
   cursor: pointer;
 }
 
@@ -205,6 +200,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+}
+
+.projects-text {
+  color: var(--main-text-color);
 }
 
 /* Footer */
