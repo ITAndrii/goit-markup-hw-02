@@ -16,12 +16,13 @@
 }
 
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  background-color: var(--main-bg);
 }
 
 /* Header */
@@ -35,7 +36,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway", "sanserif";
+  font-family: "Raleway", "sans-serif";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -46,7 +47,7 @@ body {
 }
 
 .logo > .logo-studio {
-  font-family: "Raleway", "sanserif";
+  font-family: "Raleway", "sans-serif";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -55,11 +56,15 @@ body {
   color: var(--title-color);
 }
 
+.address-nav {
+  font-style: normal;
+}
+
 .header-link {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.1;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
@@ -81,11 +86,11 @@ body {
 }
 
 .mail:is(:hover, :focus) {
-  color: var(--accent-color);
+  color: var(--pressed-state);
 }
 
 .phone:focus:is(:hover, :focus) {
-  color: var(--accent-color);
+  color: var(--pressed-state);
 }
 
 /* Main */
@@ -99,8 +104,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--main-bg);
-  background: var(--accent-color);
+  background: var(--pressed-state);
   cursor: pointer;
 }
 
@@ -110,6 +116,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--main-bg);
+  text-align: center;
 }
 
 .skill-title {
@@ -131,10 +138,15 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
+  text-align: center;
 }
 
 .team-section {
   background: var(--light-bg);
+}
+
+.team-item {
+  background-color: var(--main-bg);
 }
 
 .team-title {
@@ -144,6 +156,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
+  text-align: center;
 }
 
 .team-name {
@@ -151,7 +164,17 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--title-color);
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 
 /* Portfolio */
@@ -191,5 +214,9 @@ body {
 }
 
 .footer-text {
+  color: var(--light-bg);
+}
+
+.footer-logo-studio {
   color: var(--light-bg);
 }
