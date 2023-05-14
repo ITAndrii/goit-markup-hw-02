@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway", "sans-serif";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -47,7 +47,7 @@ body {
 }
 
 .logo > .logo-studio {
-  font-family: "Raleway", "sans-serif";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -71,7 +71,7 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-  color: var(--accent-color);
+  color: var(--pressed-state);
 }
 
 .mail,
@@ -106,7 +106,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--main-bg);
-  background: var(--pressed-state);
+  background: var(--accent-color);
   cursor: pointer;
 }
 
